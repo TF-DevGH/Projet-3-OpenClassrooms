@@ -1,0 +1,63 @@
+* {
+  font-family: "Roboto";
+}
+
+.wrapper {
+  max-width: 90em;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+html body {
+  /* Footer */
+}
+html body #footer {
+  background-color: #353535;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+html body #footer .wrapper {
+  width: 100%;
+}
+html body #footer .headerlogo {
+  padding-top: 48px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 0px;
+}
+html body #footer ul {
+  padding-bottom: 3em;
+  padding-left: 20px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+html body #footer ul li {
+  padding: 6px;
+  font-size: 24px;
+}
+html body #footer ul li .fa-utensils {
+  padding-right: 11px;
+  color: white;
+}
+html body #footer ul li .fa-hands-helping {
+  color: white;
+}
+html body #footer ul li a {
+  padding-left: 6px;
+  text-decoration: none;
+  color: white;
+}
+html body #footer ul li a.sanslogo {
+  font-weight: normal;
+  padding-left: 0px;
+}
+
+/*# sourceMappingURL=base.css.map */
